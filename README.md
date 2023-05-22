@@ -1,4 +1,4 @@
-# WWGAN (Worm Wasserstein GANs)
+# WWGAN (Worm Wasserstein GAN)
 
 This is the official Pytprch implementation of WWGAN model presented in [https://ieeexplore.ieee.org/document/9760052](https://ieeexplore.ieee.org/document/9760052)
 
@@ -18,7 +18,14 @@ The following is the architecture of WWGAN model.
 
 ## Requirements
 
-- Pytorch, Numpy, Matplotlib, Pandas, Scipy, Seaborn
-- Detailed requirements are listed in [requirements.txt](/requirements.txt)
+- Python 3.8.10
+- Pytorch 1.9.0
+- Numpy 1.21.2
+- Matplotlib 3.5.1
+- Pandas 1.2.4
+- Scipy 1.6.2
+- Seaborn 0.11.1
+
+It is recommended to use a virtual environment for running this project and installing the required dependencies in it by using the [requirements.txt](/requirements.txt) file.
 
 ## 
