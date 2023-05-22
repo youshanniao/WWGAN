@@ -6,7 +6,9 @@ This is the official Pytprch implementation of WWGAN model presented in [https:/
 
 > WWGAN can generate synthetic time-series data that carry realistic intrinsic patterns with the original data and expands a small sample without prior knowledge or hypotheses. Which means it can augment one-dimensional time-series data.
 
-![WWGAN structure](/WWGAN%20structure.png)
+The following is the architecture of WWGAN model.
+
+![WWGAN architecture](/WWGAN%20structure.png)
 
 ## Publication
 
