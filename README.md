@@ -8,7 +8,7 @@ This is the official Pytprch implementation of WWGAN model presented in [https:/
 
 The following is the architecture of WWGAN model.
 
-![WWGAN architecture](/WWGAN%20structure.png)
+![WWGAN architecture](/WWGAN%20architecture.png)
 
 ## Publication
 
