@@ -18,7 +18,7 @@ If you found this code useful, please cite the following paper:
 
 - Citation: Bo Sun, Zeyu Wu, Qiang Feng et al., "Small Sample Reliability Assessment With Online Time-Series Data Based on a Worm Wasserstein Generative Adversarial Network Learning Method," in IEEE Transactions on Industrial Informatics, vol. 19, no. 2, pp. 1207-1216, Feb. 2023, doi: 10.1109/TII.2022.3168667.
 
-'''
+```
 @ARTICLE{9760052,
   author={Sun, Bo and Wu, Zeyu and Feng, Qiang and Wang, Zili and Ren, Yi and Yang, Dezhen and Xia, Quan},
   journal={IEEE Transactions on Industrial Informatics}, 
@@ -28,7 +28,7 @@ If you found this code useful, please cite the following paper:
   number={2},
   pages={1207-1216},
   doi={10.1109/TII.2022.3168667}}
-'''
+```
 
 ## Requirements
 
