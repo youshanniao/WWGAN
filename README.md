@@ -12,6 +12,8 @@ The following is the architecture of WWGAN model.
 
 ## Publication
 
+If you found this code useful, please cite the following paper:
+
 - Title: Small Sample Reliability Assessment With Online Time-Series Data Based on a Worm Wasserstein Generative Adversarial Network Learning Method
 
 - Citation: Bo Sun, Zeyu Wu, Qiang Feng et al., "Small Sample Reliability Assessment With Online Time-Series Data Based on a Worm Wasserstein Generative Adversarial Network Learning Method," in IEEE Transactions on Industrial Informatics, vol. 19, no. 2, pp. 1207-1216, Feb. 2023, doi: 10.1109/TII.2022.3168667.
@@ -28,4 +30,7 @@ The following is the architecture of WWGAN model.
 
 A virtual environment is recommended for running this project. The required dependencies are listed in [requirements.txt](/requirements.txt).
 
-## 
+## Acknowledgements
+
+
+This repository is based on the code published in [WGAN-GP](https://github.com/caogang/wgan-gp)
