@@ -10,9 +10,24 @@ The following is the architecture of WWGAN model.
 
 ![WWGAN architecture](/WWGAN%20architecture.png)
 
+## Requirements
+
+- Python 3.8.10
+- Pytorch 1.9.0
+- Numpy 1.21.2
+- Matplotlib 3.5.1
+- Pandas 1.2.4
+- Scipy 1.6.2
+- Seaborn 0.11.1
+
+A virtual environment is recommended for running this project. The required dependencies are listed in [requirements.txt](/requirements.txt).
+
+## How to use this code
+
+
 ## Publication
 
-If you found this code useful, please cite the following paper:
+If you found this code useful, please cite the our paper:
 
 - Title: Small Sample Reliability Assessment With Online Time-Series Data Based on a Worm Wasserstein Generative Adversarial Network Learning Method
 
@@ -30,19 +45,6 @@ If you found this code useful, please cite the following paper:
   doi={10.1109/TII.2022.3168667}}
 ```
 
-## Requirements
-
-- Python 3.8.10
-- Pytorch 1.9.0
-- Numpy 1.21.2
-- Matplotlib 3.5.1
-- Pandas 1.2.4
-- Scipy 1.6.2
-- Seaborn 0.11.1
-
-A virtual environment is recommended for running this project. The required dependencies are listed in [requirements.txt](/requirements.txt).
-
 ## Acknowledgements
-
 
 This repository is based on the code published in [WGAN-GP](https://github.com/caogang/wgan-gp)
