@@ -26,6 +26,6 @@ The following is the architecture of WWGAN model.
 - Scipy 1.6.2
 - Seaborn 0.11.1
 
-It is recommended to use a virtual environment for running this project and installing the required dependencies in it by using the [requirements.txt](/requirements.txt) file.
+A virtual environment is recommended for running this project. The required dependencies are listed in [requirements.txt](/requirements.txt).
 
 ## 
