@@ -27,16 +27,16 @@ A virtual environment is recommended for running this project. The required depe
 1. Run the [WWGAN_toy.py](/WWGAN_toy.py) to learn the toy dataset.
 2. Run the [WWGAN_verification.py](/WWGAN_verification.py) to drow some figs to verify the augmentation results.
 
-The real sample and fake(generated) data:
+> The real sample and fake(generated) data:
 ![Real & fake verification](/Real%20%26%20Fake.png)
 
-The fitting verification:
+> The fitting verification:
 ![Real & fake verification](/FinalOut.png)
 
 ## Customization 
 
-> The WWGAN model can be customized by modifying the [model.py](/model.py).
-> The input time-series data can be changed into other datasets. The **Hyperparameters** should be modified accordingly.
+- The WWGAN model can be customized by modifying the [model.py](/model.py).
+- The input time-series data can be changed into other datasets. The **Hyperparameters** should be modified accordingly.
 
 ## Publication
 
