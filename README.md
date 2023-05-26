@@ -1,6 +1,6 @@
 # WWGAN (Worm Wasserstein GAN)
 
-This is the official Pytprch implementation of WWGAN model presented in [https://ieeexplore.ieee.org/document/9760052](https://ieeexplore.ieee.org/document/9760052)
+This is the official Pytorch implementation of WWGAN model presented in [https://ieeexplore.ieee.org/document/9760052](https://ieeexplore.ieee.org/document/9760052)
 
 > Worm Wasserstein Generative Adversarial Network(WWGAN) is a Generative Adversarial Network (GAN) for time-series data augmentation. WWGAN builds upon two [WGAN-GP](https://github.com/caogang/wgan-gp) by constructing the WGAN-GP into a recurrent structure like RNN to improve its data augmentation ability on time-series data. 
 
