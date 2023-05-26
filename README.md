@@ -8,7 +8,6 @@ This is the official Pytorch implementation of WWGAN model presented in [https:/
 
 The following is the architecture of WWGAN model.
 
-是的冯绍峰
 
 ![WWGAN architecture](/WWGAN%20architecture.png)
 
