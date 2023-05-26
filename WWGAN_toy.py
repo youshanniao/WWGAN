@@ -15,27 +15,19 @@
 
 import numpy as np
 import torch
-from torch.utils.data import DataLoader
-from torch import nn
-from torch import autograd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import time
-import pandas as pd
-from scipy import io
 import model
-from Utils import image_processing
+from Utils import image_processing as im
 
 # Hyperparameters
 ORDER = 1 # how many colums of the sample, 'the input_size'
-# SAMPLE_SIZE = 1500 # how many raws in samples wirh the same dirtribution
-SLICE = 25 # the smallist slice of sample
-DIM = 67# the number of hidden nodes of nets, the 'hidden_size'
+SLICE = 25 # the slice window of sample
+DIM = 67 # the number of hidden nodes of nets, the 'hidden_size'
 LR = 1e-4 # learning rate of the Adam optimizator, bigger the faster the operater restrain, but accuraty decay
-EPOCH = 600 # how many [G and D] iterations to train for, the basic number
+EPOCH = 600 # how many [G and D] iterations to train for
 BATCH_SIZE = 13 # batch size of eaach dataloader, how many samples for one CRITIC_ITER
 CRITIC_ITERS = 5 # hom many critic iterations pre D iteration
-LAMBDA = .01 # 0.1-10, can be changed to suit the model
+LAMBDA = .01 # resommend 0.01-10, can be changed to suit the model
 THRESHOLD = 0.2 # the threshold to devide the whether the distributions are the same
 BETA1 = 0.1 # first beta of Adam optimization
 BETA2 = 0.999 # second beta of Adam optimization
@@ -55,16 +47,6 @@ for t in range(1,6):
     bath = np.append(bath, bath_in, axis=0)
     
 sample = bath
-# plot a 1 * 1 picture to show the real data
-plt.clf()
-fig, axs  = plt.subplots(1, 1, figsize=(12, 3))
-sns.lineplot(data=sample, legend=False)
-plt.savefig('Toy_Sample', dpi=300)
-plt.close()
-
-# define the theme of seaborn to drow images
-sns.set_theme(palette="deep", style='ticks', color_codes=True, font='Times New Roman', font_scale=1)
-
 
 # to cut the sample to silces
 def cut_slice(data, begin, end):
@@ -178,7 +160,6 @@ end = time.time()
 print('Runing time: %.8s s' % (end-start))
 
 
-image1 = image_processing.image(ORDER, DIM, BATCH_SIZE, EPOCH, seed=1)
-
 NUM = np.loadtxt('data/index_J.csv')
+image1 = im.image(ORDER, DIM, BATCH_SIZE, EPOCH, seed=1)
 image1.real_fake_image(NUM)

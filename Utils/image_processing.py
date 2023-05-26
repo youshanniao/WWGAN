@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# Create figs
+
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
@@ -5,6 +8,8 @@ import seaborn as sns
 import model
 import pandas as pd
 
+# define the theme of seaborn to drow images
+sns.set_theme(palette="deep", style='ticks', color_codes=True, font='Times New Roman', font_scale=1)
 
 class image:
     def __init__(self, order, dim, batch_size, epoch, seed):
@@ -59,7 +64,7 @@ class image:
         plt.close()
         
 
-    # to show the real data & fake data
+    # drow a fig to show the real data & fake data
     def real_fake_image(self, index_J):
             
         c = np.size(index_J)
